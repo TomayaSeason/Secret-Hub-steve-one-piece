@@ -1,0 +1,713 @@
+game.StarterGui:SetCore('SendNotification', {
+Title = "Welcome";
+Text = " Script By Tomaya Season ";
+duration = 1000000000000000;
+})
+ 
+wait(1)
+ 
+game.StarterGui:SetCore('SendNotification', {
+Title = "Roblox Name";
+Text = " Sytrollpz or Silence";
+duration = 1000000000000000;
+})
+
+wait(1)
+
+game.StarterGui:SetCore('SendNotification', {
+Title = "enjoy";
+Text = ":) ";
+duration = 1000000000000000;
+})
+ 
+local Main = Instance.new("ScreenGui")
+local MainGui = Instance.new("Frame")
+local QuestTP = Instance.new("TextButton")
+local QuestTpGui = Instance.new("Frame")
+local SadNoob = Instance.new("TextButton")
+local ThatNoob = Instance.new("TextButton")
+local GunNoob = Instance.new("TextButton")
+local SwordNoob = Instance.new("TextButton")
+local Tilte3 = Instance.new("TextLabel")
+local Tilte2 = Instance.new("TextLabel")
+local Close1 = Instance.new("TextButton")
+local Npclist = Instance.new("TextButton")
+local NpcTpGui = Instance.new("Frame")
+local Thief = Instance.new("TextButton")
+local BuggyPirate = Instance.new("TextButton")
+local AttackingNoob = Instance.new("TextButton")
+local Buso = Instance.new("TextButton")
+local Tilte5 = Instance.new("TextLabel")
+local Tilte4 = Instance.new("TextLabel")
+local Close2 = Instance.new("TextButton")
+local Luffy = Instance.new("TextButton")
+local OtherTp = Instance.new("TextButton")
+local OtherTpGui = Instance.new("Frame")
+local TPToDFSeller = Instance.new("TextButton")
+local TPChest = Instance.new("TextButton")
+local TpSwords = Instance.new("TextButton")
+local Tilte7 = Instance.new("TextLabel")
+local Tilte6 = Instance.new("TextLabel")
+local Close3 = Instance.new("TextButton")
+local Tilte = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local OtherScripts = Instance.new("TextButton")
+local OhterScriptsGui = Instance.new("Frame")
+local Fly = Instance.new("TextButton")
+local DeleteAntiCheat = Instance.new("TextButton")
+local NoClip = Instance.new("TextButton")
+local Tilte9 = Instance.new("TextLabel")
+local Tilte8 = Instance.new("TextLabel")
+local Close4 = Instance.new("TextButton")
+local Logo = Instance.new("ImageLabel")
+local TextLabel = Instance.new("TextLabel")
+local OpenGui = Instance.new("Frame")
+local Open = Instance.new("TextButton")
+--Properties:
+Main.Name = "Main"
+Main.Parent = game.CoreGui
+
+MainGui.Name = "MainGui"
+MainGui.Parent = Main
+MainGui.BackgroundColor3 = Color3.new(0.6, 0.623529, 0.666667)
+MainGui.Position = UDim2.new(0.0790000036, 0, 1.70000005, 0)
+MainGui.Size = UDim2.new(0, 374, 0, 273)
+MainGui.Active = true
+MainGui.Draggable = true
+
+QuestTP.Name = "Quest TP"
+QuestTP.Parent = MainGui
+QuestTP.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+QuestTP.Position = UDim2.new(0.230543569, 0, 0.135341659, 0)
+QuestTP.Size = UDim2.new(0, 200, 0, 38)
+QuestTP.Font = Enum.Font.SourceSans
+QuestTP.Text = "Quest Tp List"
+QuestTP.TextColor3 = Color3.new(0, 1, 0.498039)
+QuestTP.TextSize = 14
+QuestTP.MouseButton1Down:connect(function()
+QuestTpGui.Visible = true
+end)
+
+QuestTpGui.Name = "Quest Tp Gui"
+QuestTpGui.Parent = QuestTP
+QuestTpGui.BackgroundColor3 = Color3.new(0.6, 0.623529, 0.666667)
+QuestTpGui.Position = UDim2.new(1.63000047, 0, -0.678965449, 0)
+QuestTpGui.Size = UDim2.new(0, 294, 0, 267)
+QuestTpGui.Visible = false
+QuestTpGui.Active = true
+QuestTpGui.Draggable = true
+
+SadNoob.Name = "Sad Noob"
+SadNoob.Parent = QuestTpGui
+SadNoob.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+SadNoob.Position = UDim2.new(0.224489808, 0, 0.146067441, 0)
+SadNoob.Size = UDim2.new(0, 148, 0, 33)
+SadNoob.Font = Enum.Font.SourceSans
+SadNoob.Text = "Sad Noob Tp"
+SadNoob.TextColor3 = Color3.new(0, 1, 0.498039)
+SadNoob.TextSize = 14
+SadNoob.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Sad noob') then
+       v:FindFirstChild("Head").Anchored = true
+       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+  end
+end
+end)
+
+ThatNoob.Name = "That Noob"
+ThatNoob.Parent = QuestTpGui
+ThatNoob.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+ThatNoob.Position = UDim2.new(0.224489808, 0, 0.325842708, 0)
+ThatNoob.Size = UDim2.new(0, 148, 0, 33)
+ThatNoob.Font = Enum.Font.SourceSans
+ThatNoob.Text = "That Noob Tp"
+ThatNoob.TextColor3 = Color3.new(0, 1, 0.498039)
+ThatNoob.TextSize = 14
+ThatNoob.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+   if string.find(v.ClassName, "Model") and string.find(v.Name, 'That noob') then
+       v:FindFirstChild("Head").Anchored = true
+       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+  end
+end
+end)
+
+GunNoob.Name = "Gun Noob"
+GunNoob.Parent = QuestTpGui
+GunNoob.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+GunNoob.Position = UDim2.new(0.224489808, 0, 0.501872659, 0)
+GunNoob.Size = UDim2.new(0, 148, 0, 33)
+GunNoob.Font = Enum.Font.SourceSans
+GunNoob.Text = "Gun Noob Tp"
+GunNoob.TextColor3 = Color3.new(0, 1, 0.498039)
+GunNoob.TextSize = 14
+GunNoob.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Gun noob') then
+       v:FindFirstChild("Head").Anchored = true
+       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+  end
+end
+end)
+
+SwordNoob.Name = "Sword Noob"
+SwordNoob.Parent = QuestTpGui
+SwordNoob.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+SwordNoob.Position = UDim2.new(0.224489808, 0, 0.689138591, 0)
+SwordNoob.Size = UDim2.new(0, 148, 0, 33)
+SwordNoob.Font = Enum.Font.SourceSans
+SwordNoob.Text = "Sword  Noob Tp"
+SwordNoob.TextColor3 = Color3.new(0, 1, 0.498039)
+SwordNoob.TextSize = 14
+SwordNoob.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Sword noob') then
+       v:FindFirstChild("Head").Anchored = true
+       v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+  end
+end
+end)
+
+Tilte3.Name = "Tilte3"
+Tilte3.Parent = QuestTpGui
+Tilte3.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte3.Size = UDim2.new(0, 264, 0, 31)
+Tilte3.Font = Enum.Font.SourceSans
+Tilte3.Text = "Quest Giver Tp"
+Tilte3.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte3.TextSize = 14
+
+Tilte2.Name = "Tilte2"
+Tilte2.Parent = QuestTpGui
+Tilte2.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte2.Position = UDim2.new(0, 0, 0.883895159, 0)
+Tilte2.Size = UDim2.new(0, 294, 0, 31)
+Tilte2.Font = Enum.Font.SourceSans
+Tilte2.Text = "Quest Giver Tp"
+Tilte2.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte2.TextSize = 14
+
+Close1.Name = "Close 1"
+Close1.Parent = QuestTpGui
+Close1.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Close1.Position = UDim2.new(0.897959173, 0, 0, 0)
+Close1.Size = UDim2.new(0, 30, 0, 31)
+Close1.Font = Enum.Font.SourceSans
+Close1.Text = "X"
+Close1.TextColor3 = Color3.new(1, 0, 0)
+Close1.TextSize = 14
+Close1.MouseButton1Down:connect(function()
+QuestTpGui.Visible = false
+end)
+
+Npclist.Name = "Npc list"
+Npclist.Parent = MainGui
+Npclist.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Npclist.Position = UDim2.new(0.230543569, 0, 0.32215485, 0)
+Npclist.Size = UDim2.new(0, 200, 0, 36)
+Npclist.Font = Enum.Font.SourceSans
+Npclist.Text = "Npc TP List"
+Npclist.TextColor3 = Color3.new(0, 1, 0.498039)
+Npclist.TextSize = 14
+Npclist.MouseButton1Down:connect(function()
+NpcTpGui.Visible = true
+end)
+
+NpcTpGui.Name = "Npc Tp Gui"
+NpcTpGui.Parent = Npclist
+NpcTpGui.BackgroundColor3 = Color3.new(0.6, 0.623529, 0.666667)
+NpcTpGui.Position = UDim2.new(1.54000044, 0, -2.4589653, 0)
+NpcTpGui.Size = UDim2.new(0, 294, 0, 267)
+NpcTpGui.Visible = false
+NpcTpGui.Active = true
+NpcTpGui.Draggable = true
+
+Thief.Name = "Thief"
+Thief.Parent = NpcTpGui
+Thief.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Thief.Position = UDim2.new(0.248299316, 0, 0.146067411, 0)
+Thief.Size = UDim2.new(0, 148, 0, 22)
+Thief.Font = Enum.Font.SourceSans
+Thief.Text = "TP Thief"
+Thief.TextColor3 = Color3.new(0, 1, 0.498039)
+Thief.TextSize = 14
+Thief.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Thief") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+   end
+end
+end)
+
+BuggyPirate.Name = "Buggy Pirate"
+BuggyPirate.Parent = NpcTpGui
+BuggyPirate.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+BuggyPirate.Position = UDim2.new(0.248299316, 0, 0.277153552, 0)
+BuggyPirate.Size = UDim2.new(0, 148, 0, 23)
+BuggyPirate.Font = Enum.Font.SourceSans
+BuggyPirate.Text = "Tp Buggy Pirate"
+BuggyPirate.TextColor3 = Color3.new(0, 1, 0.498039)
+BuggyPirate.TextSize = 14
+BuggyPirate.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Buggy pirate") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+   end
+end
+end)
+
+AttackingNoob.Name = "Attacking Noob"
+AttackingNoob.Parent = NpcTpGui
+AttackingNoob.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+AttackingNoob.Position = UDim2.new(0.248299316, 0, 0.41198504, 0)
+AttackingNoob.Size = UDim2.new(0, 148, 0, 24)
+AttackingNoob.Font = Enum.Font.SourceSans
+AttackingNoob.Text = "TP Attacking Noob"
+AttackingNoob.TextColor3 = Color3.new(0, 1, 0.498039)
+AttackingNoob.TextSize = 14
+AttackingNoob.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Attacking Noob") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+   end
+end
+end)
+
+Buso.Name = "Buso"
+Buso.Parent = NpcTpGui
+Buso.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Buso.Position = UDim2.new(0.248299301, 0, 0.550561905, 0)
+Buso.Size = UDim2.new(0, 148, 0, 20)
+Buso.Font = Enum.Font.SourceSans
+Buso.Text = "TP Big Full Body "
+Buso.TextColor3 = Color3.new(0, 1, 0.498039)
+Buso.TextSize = 14
+Buso.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Big Full Body") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+   end
+end
+end)
+
+Tilte5.Name = "Tilte5"
+Tilte5.Parent = NpcTpGui
+Tilte5.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte5.Size = UDim2.new(0, 264, 0, 31)
+Tilte5.Font = Enum.Font.SourceSans
+Tilte5.Text = "NPC Tp"
+Tilte5.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte5.TextSize = 14
+
+Tilte4.Name = "Tilte4"
+Tilte4.Parent = NpcTpGui
+Tilte4.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte4.Position = UDim2.new(0, 0, 0.883895159, 0)
+Tilte4.Size = UDim2.new(0, 294, 0, 31)
+Tilte4.Font = Enum.Font.SourceSans
+Tilte4.Text = "NPC Tp"
+Tilte4.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte4.TextSize = 14
+
+Close2.Name = "Close2"
+Close2.Parent = NpcTpGui
+Close2.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Close2.Position = UDim2.new(0.897959173, 0, 0, 0)
+Close2.Size = UDim2.new(0, 30, 0, 31)
+Close2.Font = Enum.Font.SourceSans
+Close2.Text = "X"
+Close2.TextColor3 = Color3.new(1, 0, 0)
+Close2.TextSize = 14
+Close2.MouseButton1Down:connect(function()
+NpcTpGui.Visible = false
+end)
+
+Luffy.Name = "Luffy"
+Luffy.Parent = NpcTpGui
+Luffy.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Luffy.Position = UDim2.new(0.248299316, 0, 0.681648076, 0)
+Luffy.Size = UDim2.new(0, 148, 0, 23)
+Luffy.Font = Enum.Font.SourceSans
+Luffy.Text = "TP Luffy"
+Luffy.TextColor3 = Color3.new(0, 1, 0.498039)
+Luffy.TextSize = 14
+Luffy.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Luffy") then
+      v:FindFirstChild("HumanoidRootPart").Anchored = true
+      v:FindFirstChild("HumanoidRootPart").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+   end
+end
+end)
+
+OtherTp.Name = "Other Tp"
+OtherTp.Parent = MainGui
+OtherTp.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+OtherTp.Position = UDim2.new(0.230543569, 0, 0.483390152, 0)
+OtherTp.Size = UDim2.new(0, 200, 0, 38)
+OtherTp.Font = Enum.Font.SourceSans
+OtherTp.Text = "Other Tp List"
+OtherTp.TextColor3 = Color3.new(0, 1, 0.498039)
+OtherTp.TextSize = 14
+OtherTp.MouseButton1Down:connect(function()
+OtherTpGui.Visible = true
+end)
+
+OtherTpGui.Name = "Other Tp Gui"
+OtherTpGui.Parent = OtherTp
+OtherTpGui.BackgroundColor3 = Color3.new(0.6, 0.623529, 0.666667)
+OtherTpGui.Position = UDim2.new(1.6000005, 0, -3.41264963, 0)
+OtherTpGui.Size = UDim2.new(0, 294, 0, 267)
+OtherTpGui.Visible = false
+OtherTpGui.Active = true
+OtherTpGui.Draggable = true
+
+TPToDFSeller.Name = "TP To DF Seller"
+TPToDFSeller.Parent = OtherTpGui
+TPToDFSeller.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+TPToDFSeller.Position = UDim2.new(0.248299316, 0, 0.187007606, 0)
+TPToDFSeller.Size = UDim2.new(0, 148, 0, 42)
+TPToDFSeller.Font = Enum.Font.SourceSans
+TPToDFSeller.Text = "TP To DF Seller"
+TPToDFSeller.TextColor3 = Color3.new(0, 1, 0.498039)
+TPToDFSeller.TextSize = 14
+TPToDFSeller.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+   if string.find(v.ClassName, "Model") and string.find(v.Name, 'Devil Fruit Seller') then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v:FindFirstChild("Head").CFrame
+  end
+end
+end)
+
+TPChest.Name = "TP Chest"
+TPChest.Parent = OtherTpGui
+TPChest.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+TPChest.Position = UDim2.new(0.248299316, 0, 0.39700374, 0)
+TPChest.Size = UDim2.new(0, 148, 0, 38)
+TPChest.Font = Enum.Font.SourceSans
+TPChest.Text = "Tp Chest"
+TPChest.TextColor3 = Color3.new(0, 1, 0.498039)
+TPChest.TextSize = 14
+TPChest.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+if v.ClassName == "TouchTransmitter" then
+v.Parent.Position = game.Players.LocalPlayer.Character.HumanoidRootPart.Position + Vector3.new(0,0,-5)
+v.Parent.Anchored = true
+end
+end
+end)
+
+TpSwords.Name = "Tp Swords"
+TpSwords.Parent = OtherTpGui
+TpSwords.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+TpSwords.Position = UDim2.new(0.248299316, 0, 0.599057198, 0)
+TpSwords.Size = UDim2.new(0, 148, 0, 45)
+TpSwords.Font = Enum.Font.SourceSans
+TpSwords.Text = "TP All Sword"
+TpSwords.TextColor3 = Color3.new(0, 1, 0.498039)
+TpSwords.TextSize = 14
+TpSwords.MouseButton1Down:connect(function()
+for _,v in pairs(game.Workspace:GetDescendants()) do
+  if string.find(v.Name, "Price:") and string.find(v.ClassName, "Model") then
+      v:FindFirstChild("Head").Anchored = true
+      v:FindFirstChild("Head").CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame*CFrame.new(0,0,-5)
+ end
+end
+end)
+
+Tilte7.Name = "Tilte7"
+Tilte7.Parent = OtherTpGui
+Tilte7.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte7.Size = UDim2.new(0, 264, 0, 31)
+Tilte7.Font = Enum.Font.SourceSans
+Tilte7.Text = "Other Tp"
+Tilte7.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte7.TextSize = 14
+
+Tilte6.Name = "Tilte6"
+Tilte6.Parent = OtherTpGui
+Tilte6.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte6.Position = UDim2.new(0, 0, 0.883895159, 0)
+Tilte6.Size = UDim2.new(0, 294, 0, 31)
+Tilte6.Font = Enum.Font.SourceSans
+Tilte6.Text = "Other Tp"
+Tilte6.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte6.TextSize = 14
+
+Close3.Name = "Close3"
+Close3.Parent = OtherTpGui
+Close3.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Close3.Position = UDim2.new(0.897959173, 0, 0, 0)
+Close3.Size = UDim2.new(0, 30, 0, 31)
+Close3.Font = Enum.Font.SourceSans
+Close3.Text = "X"
+Close3.TextColor3 = Color3.new(1, 0, 0)
+Close3.TextSize = 14
+Close3.MouseButton1Down:connect(function()
+OtherTpGui.Visible = false
+end)
+
+Tilte.Name = "Tilte"
+Tilte.Parent = MainGui
+Tilte.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte.Size = UDim2.new(0, 339, 0, 28)
+Tilte.Font = Enum.Font.SourceSans
+Tilte.Text = "Steve One Piece Gui"
+Tilte.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte.TextSize = 14
+
+Credits.Name = "Credits"
+Credits.Parent = MainGui
+Credits.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Credits.Position = UDim2.new(0, 0, 0.897435904, 0)
+Credits.Size = UDim2.new(0, 374, 0, 28)
+Credits.Font = Enum.Font.SourceSans
+Credits.Text = "Credits Tomaya Season"
+Credits.TextColor3 = Color3.new(0, 1, 0.498039)
+Credits.TextSize = 14
+
+Close.Name = "Close"
+Close.Parent = MainGui
+Close.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Close.Position = UDim2.new(0.906417131, 0, 0, 0)
+Close.Size = UDim2.new(0, 35, 0, 28)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.new(1, 0, 0)
+Close.TextSize = 14
+Close.MouseButton1Down:connect(function()
+MainGui:TweenPosition(UDim2.new(0.079, 0, 1.7, 0), 'Out','Bounce', 1)
+NpcTpGui.Visible = false
+OhterScriptsGui.Visible = false
+OtherTpGui.Visible = false
+QuestTpGui.Visible = false
+OpenGui.Visible = true
+end)
+
+OtherScripts.Name = "Other Scripts"
+OtherScripts.Parent = MainGui
+OtherScripts.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+OtherScripts.Position = UDim2.new(0.230543569, 0, 0.659214318, 0)
+OtherScripts.Size = UDim2.new(0, 200, 0, 38)
+OtherScripts.Font = Enum.Font.SourceSans
+OtherScripts.Text = "Other Scripts"
+OtherScripts.TextColor3 = Color3.new(0, 1, 0.498039)
+OtherScripts.TextSize = 14
+OtherScripts.MouseButton1Down:connect(function()
+OhterScriptsGui.Visible = true
+end)
+
+OhterScriptsGui.Name = "Ohter Scripts Gui"
+OhterScriptsGui.Parent = OtherScripts
+OhterScriptsGui.BackgroundColor3 = Color3.new(0.6, 0.623529, 0.666667)
+OhterScriptsGui.Position = UDim2.new(1.56000042, 0, -4.66949177, 0)
+OhterScriptsGui.Size = UDim2.new(0, 294, 0, 267)
+OhterScriptsGui.Visible = false
+OhterScriptsGui.Active = true
+OhterScriptsGui.Draggable = true
+
+Fly.Name = "Fly"
+Fly.Parent = OhterScriptsGui
+Fly.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Fly.Position = UDim2.new(0.248299316, 0, 0.153558046, 0)
+Fly.Size = UDim2.new(0, 148, 0, 42)
+Fly.Font = Enum.Font.SourceSans
+Fly.Text = "Fly (Press E)"
+Fly.TextColor3 = Color3.new(0, 1, 0.498039)
+Fly.TextSize = 14
+Fly.MouseButton1Down:connect(function()
+loadstring(game:HttpGet('https://pastebin.com/raw/q6S4AcxJ'))()
+end)
+
+DeleteAntiCheat.Name = "Delete Anti Cheat"
+DeleteAntiCheat.Parent = OhterScriptsGui
+DeleteAntiCheat.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+DeleteAntiCheat.Position = UDim2.new(0.248299316, 0, 0.38202247, 0)
+DeleteAntiCheat.Size = UDim2.new(0, 148, 0, 48)
+DeleteAntiCheat.Font = Enum.Font.SourceSans
+DeleteAntiCheat.Text = "Delete Anti Cheat"
+DeleteAntiCheat.TextColor3 = Color3.new(0, 1, 0.498039)
+DeleteAntiCheat.TextSize = 14
+DeleteAntiCheat.MouseButton1Down:connect(function()
+for i,v in pairs(game.Players.LocalPlayer.Character:GetChildren()) do 
+if v.ClassName == "Script" then 
+for i,c in pairs(v:GetChildren()) do 
+if c.Name == "" then
+v:Remove()
+
+end
+end
+end
+end
+end)
+
+NoClip.Name = "NoClip"
+NoClip.Parent = OhterScriptsGui
+NoClip.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+NoClip.Position = UDim2.new(0.248299316, 0, 0.634609342, 0)
+NoClip.Size = UDim2.new(0, 148, 0, 41)
+NoClip.Font = Enum.Font.SourceSans
+NoClip.Text = "Noclip(press e)"
+NoClip.TextColor3 = Color3.new(0, 1, 0.498039)
+NoClip.TextSize = 14
+NoClip.MouseButton1Down:connect(function()
+noclip = false
+game:GetService('RunService').Stepped:connect(function()
+if noclip then
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+plr = game.Players.LocalPlayer
+mouse = plr:GetMouse()
+mouse.KeyDown:connect(function(key)
+
+if key == "e" then
+noclip = not noclip
+game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+end
+end)
+end)
+
+Tilte9.Name = "Tilte9"
+Tilte9.Parent = OhterScriptsGui
+Tilte9.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte9.Size = UDim2.new(0, 264, 0, 31)
+Tilte9.Font = Enum.Font.SourceSans
+Tilte9.Text = "Other Scripts"
+Tilte9.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte9.TextSize = 14
+
+Tilte8.Name = "Tilte8"
+Tilte8.Parent = OhterScriptsGui
+Tilte8.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Tilte8.Position = UDim2.new(0, 0, 0.883895159, 0)
+Tilte8.Size = UDim2.new(0, 294, 0, 31)
+Tilte8.Font = Enum.Font.SourceSans
+Tilte8.Text = "Other Scripts"
+Tilte8.TextColor3 = Color3.new(0, 1, 0.498039)
+Tilte8.TextSize = 14
+
+Close4.Name = "Close4"
+Close4.Parent = OhterScriptsGui
+Close4.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Close4.Position = UDim2.new(0.897959173, 0, 0, 0)
+Close4.Size = UDim2.new(0, 30, 0, 31)
+Close4.Font = Enum.Font.SourceSans
+Close4.Text = "X"
+Close4.TextColor3 = Color3.new(1, 0, 0)
+Close4.TextSize = 1
+Close4.MouseButton1Down:connect(function()
+OhterScriptsGui.Visible = false
+end)
+
+Logo.Name = "Logo"
+Logo.Parent = Main
+Logo.BackgroundColor3 = Color3.new(1, 1, 1)
+Logo.BackgroundTransparency = 1
+Logo.Position = UDim2.new(0.244326204, 0, 0.25717932, 0)
+Logo.Size = UDim2.new(0, 556, 0, 284)
+Logo.Image = "rbxassetid://2524583203"
+Logo.ImageTransparency = 1
+
+
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0, 0, 1.04225349, 0)
+TextLabel.Size = UDim2.new(0, 556, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "CREATE : TOMAYA SEASON"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 30
+TextLabel.TextTransparency = 1
+
+OpenGui.Name = "OpenGui"
+OpenGui.Parent = Main
+OpenGui.BackgroundColor3 = Color3.new(1, 1, 1)
+OpenGui.Position = UDim2.new(0, 0, 0.515867531, 0)
+OpenGui.Size = UDim2.new(0, 109, 0, 48)
+OpenGui.Active = true
+
+Open.Name = "Open"
+Open.Parent = OpenGui
+Open.BackgroundColor3 = Color3.new(0.168627, 0.188235, 0.168627)
+Open.Position = UDim2.new(-0.266055048, 0, 0, 0)
+Open.Size = UDim2.new(0, 200, 0, 50)
+Open.Font = Enum.Font.SourceSans
+Open.Text = "Open"
+Open.TextColor3 = Color3.new(0, 1, 0.498039)
+Open.TextSize = 14
+Open.MouseButton1Down:connect(function()
+MainGui:TweenPosition(UDim2.new(0.302, 0,0.28, 0), 'Out','Bounce', 1)
+OpenGui.Visible = false
+end)
+
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 1
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 1
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.9
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.9
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.8
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.8
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.7
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.7
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.6
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.6
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.5
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.5
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.4
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.4
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.3
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.3
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.2
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.2
+wait(0.03)
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.1
+game.CoreGui.Main.Logo.ImageTransparency = 0.1
+wait(0.03)
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0
+game.CoreGui.Main.Logo.ImageTransparency = 0
+wait(3.5)
+game.CoreGui.Main.Logo.ImageTransparency = 0.1
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.1
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.2
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.2
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.3
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.3
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.4
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.4
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.5
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.5
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.6
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.6
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.7
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.7
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.8
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.8
+wait(0.03)
+game.CoreGui.Main.Logo.ImageTransparency = 0.9
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 0.9
+wait(0.03)
+game.CoreGui.Main.Logo.TextLabel.TextTransparency = 1
+game.CoreGui.Main.Logo.ImageTransparency = 1
+game.CoreGui.Main.Logo.Visible = false
